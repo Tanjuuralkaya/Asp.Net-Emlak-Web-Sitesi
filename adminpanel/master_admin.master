@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="master_admin.master.cs" Inherits="adminpanel_master_admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Stil_yonetim.css" rel="stylesheet" type="text/css"/>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="dis_alan">
+  <div id="banner">Yönetici Sayfası</div>
+	<div id="navigation">
+		<div id="adsoyad" style="color: #660066">Ad Soyad: Tanju URALKAYA</div>
+		<div id="gorev" style="color: #660066">Görevi: Öğrenci</div>
+</div>
+
+	<div id="icerik_alanı">
+		<div id="botonlar">
+		  <ul>
+		    <li><a href="GrupYonetimi.aspx">Grup Yönetimi</a></li>
+            <li><a href="AdminYonetimi.aspx">Admin Yönetimi</a></li>
+              <li><a href="ilYonetimi.aspx">İl Ve İlçe Yönetimi</a></li>
+	      </ul>
+		</div>
+    	<div id="icerik">
+
+    	    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            
+    	</div>
+  </div>
+</div>
+
+    </form>
+</body>
+</html>

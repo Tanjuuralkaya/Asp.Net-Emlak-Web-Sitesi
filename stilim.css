@@ -1,0 +1,230 @@
+﻿@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#dis_alan {
+	height: auto;
+	width: 970px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#banner {
+	height: 58px;
+	width: 970px;
+	background-image: url(adminpanel/%C4%B0mage/bg_banner.jpg);
+}
+#kullanici_alani {
+	height: 105px;
+	width: 970px;
+	background-color: #FFF;
+}
+#logo {
+	height: 103px;
+	width: 320px;
+	padding: 0px;
+	background-color: #FFF;
+	font-size: 36px;
+	text-decoration: underline;
+	color: #650142;
+	float: left;
+}
+#kul_asag {
+	float: left;
+	height: 103px;
+	width: 375px;
+}
+#butonlar {
+	height: 161px;
+	width: 970px;
+	background-color: #3FF;
+}
+.satilik {
+	float: left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #530053;
+	margin-left: 25px;
+}
+
+.satilik_is {
+	float: left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #530053;
+	margin-left: 14px;
+}
+.satilik_arsa {
+	float: left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #530053;
+	margin-left: 19px;
+}
+
+#daire_buton {
+	height: 160px;
+	width: 210px;
+	float: left;
+}
+#daire_icon {
+	height: 130px;
+	width: 210px;
+}
+#icon_ev {
+	height: 48px;
+	width: 84px;
+	margin-left: 60px;
+	padding-top: 40px;
+}
+#icon_isyeri {
+	height: 40px;
+	width: 80px;
+	margin-left: 95px;
+	padding-top: 44px;
+}
+#arsa_icon {
+	height: 130px;
+	width: 218px;
+}
+#arsa_satilik {
+	height: 30px;
+	width: 218px;
+}
+#icon_arsa {
+	height: 38px;
+	width: 80px;
+	margin-left: 74px;
+	padding-top: 46px;
+}
+
+
+
+
+#isyeri_icon {
+	height: 130px;
+	width: 280px;
+}
+
+
+#daire_satilik {
+	height: 30px;
+	width: 210px;
+}
+#isyeri_satilik {
+	height: 30px;
+	width: 280px;
+}
+
+
+
+#isyeri_buton {
+	float: left;
+	height: 160px;
+	width: 280px;
+}
+#arsa_buton {
+	float: left;
+	height: 160px;
+	width: 218px;
+}
+#otel_buton {
+	float: left;
+	height: 160px;
+	width: 262px;
+}
+#otel_icon {
+	height: 130px;
+	width: 262px;
+}
+#otel_satilik {
+	height: 30px;
+	width: 262px;
+}
+#icon_otel {
+	height: 38px;
+	width: 80px;
+	margin-left: 95px;
+	padding-top: 46px;
+}
+#vitrin {
+	height: 250px;
+	width: 970px;
+}
+#vitrin_ust {
+	height: 10px;
+	width: 970px;
+	background-color: #003;
+}
+.vitrin_ilan {
+	width: 150px;
+	height: 205px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 35px;
+	float: left;
+}
+.vitrin_resim {
+	height: 96px;
+	width: 146px;
+	border:groove medium #333;
+}
+
+#kul_orta {
+	height: 103px;
+	width: 280px;
+	float: left;
+}
+.sat {
+	height: 20px;
+	width: 150px;
+	padding-top: 5px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #303;
+}
+.fiyat {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #333;
+	height: 14px;
+	width: 150px;
+}
+.ilce {
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	font-size:12px;
+	height:18px;
+	width:150px;
+	border-top-width:thin;
+	border-top-style:dotted;
+	border-top-color:#666;
+}
+#vitrin_baslik {
+	font-family: Verdana, Geneva, sans-serif;
+	height: 20px;
+	width: 970px;
+	padding-top: 5px;
+	font-weight: normal;
+	background-image: url(%C4%B0mage/bg_buton.gif);
+	text-align:center;
+	font-weight:100;
+}
+#footer {
+	height:30px;
+	width:970px;
+	color:#36F;
+	font-weight:bold;
+	text-align:center;
+	padding-top:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+}

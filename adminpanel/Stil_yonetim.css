@@ -1,0 +1,106 @@
+﻿@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #D2E6E6;
+}
+#dis_alan {
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#banner {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #1b3939;
+    opacity:0.4;
+	text-align: center;
+	height: 40px;
+	width: 1000px;
+	padding-top: 10px;
+}
+#adsoyad {
+	height: 20px;
+	width: auto;
+	margin-left: 50px;
+	padding-top: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	float: left;
+	color: #066;
+}
+
+
+#botonlar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#botonlar ul li a {
+	display: block;
+	width: 200px;
+	height: 25px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	padding-top: 5px;
+	background-image: url(%C4%B0mage/bg_buton.gif);
+	color: #333;
+}
+#botonlar ul li a:hover {
+	color: #F03;
+}
+#gorev {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #066;
+	height: 20px;
+	width: auto;
+	margin-left: 50px;
+	padding-top: 5px;
+	float: left;
+	font-size: 13px;
+}
+#icerik_alanı {
+	height: auto;
+	width: 1000px;
+}
+#botonlar {
+	float: left;
+	height: auto;
+	width: 250px;
+	background-image: url(%C4%B0mage/bg_butonlar.gif);
+}
+#icerik {
+    height: auto;
+    width: 745px;
+    float: left;
+    background-image: none;
+    line-height: normal;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+#botonlar ul li {
+	margin-top: 0px;
+	padding-top: 0px;
+	list-style-type: none;
+}
+
+
+#navigation {
+	height: 30px;
+	width: 1000px;
+	background-image: url(%C4%B0mage/bg_navigasyon.gif);
+}
+.sayfaarkaplan {
+    background-color:#e1c9c9;
+    filter:alpha(opacity=70);
+    opacity:0.7;
+}

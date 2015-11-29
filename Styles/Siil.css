@@ -1,0 +1,524 @@
+﻿@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#dis_alan {
+	height: auto;
+	width: 970px;
+	margin-right: auto;
+	margin-left: auto;
+    
+}
+#kullanici_alani {
+	height: 108px;
+	width: 970px;
+	background-color: #FFF;
+}
+#banner {
+    height: 58px;
+    width: 970px;
+    background-image: url('../resim/bg_banner.jpg');
+}
+#logo {
+	height: 108px;
+	width: 294px;
+	padding: 0px;
+	background-color: #FFF;
+	font-size: 30px;
+	text-decoration: underline;
+	color: #650142;
+	float: left;
+}
+#logo a:hover {
+    color:indianred;
+}
+#daire_buton {
+	float: left;
+	height: 161px;
+	width: 210px;
+}
+#vitrin_baslik {
+	font-family: Verdana, Geneva, sans-serif;
+	height: 20px;
+	width: 970px;
+	padding-top: 5px;
+	font-weight: normal;
+	background-image:url('../resim/bg_buton.gif');
+	text-align:center;
+	font-weight:100;
+}
+#footer {
+	height:30px;
+	width:970px;
+	color:#36F;
+	font-weight:bold;
+	text-align:center;
+	padding-top:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+    background-color:rgba(247, 70, 70, 0.71);
+}
+
+
+#isyeri_buton {
+	float: left;
+	height: 161px;
+	width: 280px;
+}
+#arsa_buton {
+	float: left;
+	height: 161px;
+	width: 218px;
+}
+#otel_buton {
+	float: left;
+	height: 161px;
+	width: 262px;
+}
+#daire_icon {
+	height: 130px;
+	width: 210px;
+}
+#daire_satilik {
+	height: 31px;
+	width: 210px;
+}
+#icon_ev {
+	height: 88px;
+	width: 84px;
+	margin-left: 55px;
+	padding-top: 29px;
+}
+#isyeri_icon {
+	height: 130px;
+	width: 280px;
+}
+#arsa_icon {
+	height: 130px;
+	width: 218px;
+}
+#arsa_satilik {
+	height: 31px;
+	width: 218px;
+}
+#icon_arsa {
+	height: 84px;
+	width: 80px;
+	margin-left: 70px;
+	padding-top: 30px;
+}
+#otel_icon {
+	height: 130px;
+	width: 262px;
+}
+#otel_satilik {
+	height: 31px;
+	width: 262px;
+}
+#icon_otel {
+	height: 84px;
+	width: 80px;
+	margin-left: 80px;
+	padding-top: 30px;
+}
+.satilik {
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+	float: left;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.satilik_is{
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+	float: left;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.satilik_otel{
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+	float: left;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-left: 13px;
+	margin-top: 10px;
+}
+
+
+#isyeri_satilik {
+	height: 31px;
+	width: 280px;
+}
+#icon_isyeri {
+	height: 84px;
+	width: 80px;
+	margin-left: 100px;
+	padding-top: 30px;
+}
+#vitrin {
+	height: 250px;
+	width: 970px;
+}
+#vitrin_ust {
+	height: 10px;
+	width: 970px;
+	background-color: #009;
+	
+}
+.vitrin_ilan {
+	float: left;
+	height: 205px;
+	width: 150px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 36px;
+}
+.vitrin_resim {
+	height: 96px;
+	width: 146px;
+	border: medium groove #036;
+}
+.sat {
+	height: 20px;
+	width: 150px;
+	padding-top: 5px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #303;
+	
+}
+.fiyat {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #333;
+	height: 14px;
+	width: 150px; 
+}
+.ilce {
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	font-size:12px;
+	height:18px;
+	width:150px;
+	border-top-width:thin;
+	border-top-style:dotted;
+	border-top-color:#666;
+}
+
+
+
+#kul_orta {
+	height: 108px;
+	width: 405px;
+	float: left;
+}
+#kul_asag {
+	float: left;
+	height: 108px;
+	width: 271px;
+}
+
+#kul_giris {
+    height: 108px;
+	width: 271px;
+    padding-bottom: 1px;    
+}
+#kul_bilgi
+{
+    height: 108px;
+	width: 271px;
+    padding-bottom: 1px;
+    }
+
+      
+.kul_satir
+{
+    width: 271px;
+    height: 19px;
+    padding-top: 1px;
+}
+.kul_sutun1
+{
+    height: 19px;
+    width: 80px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #333333;
+} 
+.kul_sutun2
+{
+    height: 19px;
+    width:191px;
+    float: left;
+    }  
+.kul_sutun3
+{
+    height: 19px;
+    width: 80px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+    text-decoration: none;
+}
+.giris_text
+{
+    background-color:#2ad3d3;
+}      
+
+#butonlar {
+	height: 161px;
+	width: 970px;
+	background-color: #3FF;
+
+}
+.temizle {
+	clear: both;
+}
+.sol {
+    
+    width: 125px;
+    height: auto;
+    float: left;
+}
+.sag {
+    width: 145px;
+    height: auto;
+    float: left;
+}
+.orta {
+    width: 685px;
+    height: auto;
+    float: left;
+    background-color:#3cf177;
+}
+.banner_sol {
+    float:left;
+    width: 820px;
+    height: 58px;
+}
+.banner_sag {
+    float: left;
+    width: 150px;
+    height: 53px;
+    padding-top: 5px;
+    text-align: center;
+}
+.Uyeol_satir
+{
+    width: 670px;
+    height:25px;
+    }
+   .uyeol_sol
+{
+    height: auto;
+    width: 145px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0e0d0d;
+    padding-left: 5px;
+
+}
+       .uyeol_orta
+{
+    height: auto;
+    width: 200px;
+    float: left;
+}
+    .uyeol_sag
+{
+    height: auto;
+    width: 320px;
+    float: left;
+}
+    .hata_mesaj
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #CC0000;
+}
+  .Uyeol_satir2
+{
+    width: 670px;
+    height:125px;
+    }
+  .Sifremi_unuttum
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-bottom: 20px;
+
+}
+  #profil_butonlar
+{
+    width: 621px;
+    height: 23px;
+    margin-left:45px;
+ 
+ 
+    
+
+   
+}
+  #profil_butonlar ul
+{
+    list-style-type: none;
+    height: 35px;
+    margin-left:5px;
+    padding-bottom:10px;
+}
+  #profil_butonlar ul li
+{
+    float: left;
+    height: 30px;
+}
+  #profil_butonlar ul li a
+{
+    display: block;
+    width: auto;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #303;
+    margin-left: 25px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    background-color:#3FF;
+    
+}
+  #profil_butonlar ul li a:hover
+{
+    color: red;
+    text-decoration: none;
+}
+  #profil_resim
+{
+    width: 100px;
+    height: 143px;
+    padding-left: 250px;
+    padding-top:20px;
+    padding-top: 20px;
+    margin-top: 21px;
+}
+  #profil_adsoyad
+{
+    padding-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #036;
+    font-weight: bold;
+    padding-bottom:10px;
+}
+  #profil_il
+{
+    padding-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #036;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+  .profil_satir
+{
+    padding-left: 200px;
+    padding-bottom: 10px;
+    padding-top:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+
+}
+  .profil_satir1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #1F1F1F;
+    float: left;
+    height:16px;
+    font-weight: bold;
+    width:90px;
+   
+  
+}
+.profil_satir2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #1F1F1F;
+    float:left;
+    height: 16px;    
+    margin-left: 20px;
+    width: 200px;  
+
+}
+  .profil_satir3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #1F1F1F;
+    float: left;
+    height:30px;
+    font-weight: bold;
+    width: 80px;
+   
+  
+}
+.profil_satir4
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #1F1F1F;
+    float:left;
+    height: 42px;   
+    margin-left: 30px;
+    width: 324px;  
+    padding-bottom:15px;
+
+}
+#orta_ekle {
+    width:132px;
+    height:108px;
+    float:left;
+    margin-left: 51px;
+}
+#icon_yazi {
+float:left;
+width:273px;
+height:108px;
+}
+#icon_yazi_yerlestir {
+padding-left:200px;
+padding-top:10px;
+
+
+}
+#yaziya_tikla {
+padding-left:220px;
+padding-top:70px;
+
+   
+}
+
+
+

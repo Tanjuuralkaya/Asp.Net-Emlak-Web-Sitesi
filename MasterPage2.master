@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div class="sol">a</div>
+    <div class="orta">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+      
+          
+            <p>
+                adnf</p>
+            <p>
+                hjsavu</p>
+            <p>
+                kjabd</p>
+            <p>
+                aldı</p>
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="sag">a</div>
+    <div class="temizle"></div>
+</asp:Content>
+
